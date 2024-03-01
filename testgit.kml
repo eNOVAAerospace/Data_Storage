@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>PRT_s50_SSO_1A</name>
+    <description>1A</description>
+    <open>1</open>
+ <ScreenOverlay>
+	<name>Logo</name>
+	<Icon>
+		<href>https://github.com/eNOVAAerospace/Data_Storage/blob/main/3DModel/logos/e.NOVA_LOGO_Officiel.png?raw=true</href>
+	</Icon>
+	<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<size x="200" y="200" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+ <Style id="traj">
+   <LineStyle>
+       <color>ff00ffff</color>
+       <width>2</width>
+   </LineStyle>
+   <IconStyle>
+       <scale>0.5</scale>
+       <Icon>
+           <href>http://maps.google.com/mapfiles/kml/pal4/icon46.png</href>
+       </Icon>
+  </IconStyle>
+  </Style>
+<Style id="balloonStyle1">
+    <BalloonStyle>
+        <text><![CDATA[<b><font color="0000BB" size=" + 3 " >$[name]</font></b><br/><br/>$[description]]]></text>
+        <bgColor>ffddffff</bgColor>
+    </BalloonStyle>
+    <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width>
+    </LineStyle>
+</Style>
+<Style id="balloonStyle">
+    <BalloonStyle>
+        <text><![CDATA[<b><font color="0000BB" size="+3">$[name]</font></b><br/><br/>$[description]]]></text>
+        <bgColor>ffddffff</bgColor>
+    </BalloonStyle>
+    <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width>
+    </LineStyle>
+</Style>
+<StyleMap id="balloonStyle0">
+    <Pair>
+        <key>normal</key>
+        <styleUrl>#balloonStyle</styleUrl>
+    </Pair>
+    <Pair>
+        <key>highlight</key>
+        <styleUrl>#balloonStyle1</styleUrl>
+    </Pair>
+</StyleMap>
+ <Folder>
+   <name> TRACK 3DModel </name>
+<Placemark>
+  <Name>Unit-pyr </Name>
+  <styleUrl>#traj</styleUrl>
+<gx:Track>
+<altitudeMode>absolute</altitudeMode>
+<when>2020-10-14T10:30:00</when>
+<when>2020-10-14T10:31:00</when>
+<when>2020-10-14T10:32:00</when>
+<when>2020-10-14T10:33:00</when>
+<when>2020-10-14T10:34:00</when>
+<when>2020-10-14T10:35:00</when>
+<when>2020-10-14T10:36:00</when>
+<when>2020-10-14T10:37:00</when>
+<when>2020-10-14T10:38:00</when>
+<when>2020-10-14T10:39:00</when>
+<gx:coord>-0.222826933710394 8.92970345333886 499999.999999994</gx:coord>
+<gx:coord>-0.970001128701824 5.16198028438155 499999.999999994</gx:coord>
+<gx:coord>-1.71129429210595 1.39387724151175 499999.999999994</gx:coord>
+<gx:coord>-2.45101559555729 -2.37433004542306 499999.999999994</gx:coord>
+<gx:coord>-3.19341860972349 -6.14236099760561 499999.999999994</gx:coord>
+<gx:coord>-3.9428508458883 -9.90993533270024 499999.999999994</gx:coord>
+<gx:coord>-4.70390712516604 -13.6767544499215 499999.999999994</gx:coord>
+<gx:coord>-5.48160298899984 -17.4424922236542 499999.999999995</gx:coord>
+<gx:coord>-6.28158066975499 -21.2067814984185 499999.999999995</gx:coord>
+<gx:coord>-7.11036660987105 -24.9691971731579 499999.999999994</gx:coord>
+<gx:angles>191.216752945811 0 0</gx:angles>
+<gx:angles>191.129584409603 0 0</gx:angles>
+<gx:angles>191.106272655963 0 0</gx:angles>
+<gx:angles>191.146038417367 0 0</gx:angles>
+<gx:angles>191.250220980897 0 0</gx:angles>
+<gx:angles>191.422395161309 0 0</gx:angles>
+<gx:angles>191.668615665795 0 0</gx:angles>
+<gx:angles>191.997863535587 0 0</gx:angles>
+<gx:angles>192.422734565858 0 0</gx:angles>
+<gx:angles>192.96045720831 0 0</gx:angles>
+
+<Model>
+                   <Orientation>
+                       <heading>0</heading>
+                       <tilt>0</tilt>
+                       <roll>0</roll>
+                   </Orientation>
+                   <Scale>
+                       <x>11701.40</x>
+                       <y>11701.40</y>
+                       <z>10000.00</z>
+                   </Scale>
+<Link>
+<href>https://raw.githubusercontent.com/eNOVAAerospace/Data_Storage/main/3DModel/Geometrie/cone%20bleu.dae</href>
+                       <refreshInterval>0.0</refreshInterval>
+                       <viewRefreshTime>0.0</viewRefreshTime>
+                       <viewBoundScale>0.0</viewBoundScale>  
+</Link>
+</Model>
+</gx:Track>
+</Placemark>
+</Folder>
+</Document>
+</kml>
