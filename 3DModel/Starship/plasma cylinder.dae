@@ -4,8 +4,8 @@
         <contributor>
             <authoring_tool>SketchUp 18.0.16975</authoring_tool>
         </contributor>
-        <created>2024-12-11T15:00:30Z</created>
-        <modified>2024-12-11T15:00:30Z</modified>
+        <created>2024-12-12T09:54:08Z</created>
+        <modified>2024-12-12T09:54:08Z</modified>
         <unit meter="0.0254" name="inch" />
         <up_axis>Z_UP</up_axis>
     </asset>
@@ -27,18 +27,18 @@
         <visual_scene id="ID2">
             <node name="SketchUp">
                 <node name="skp_camera_Last_Saved_SketchUp_View">
-                    <matrix>0.9620818 0.07006579 -0.2636085 -799.8705 -0.2727612 0.2471357 -0.9297985 -2507.925 1.387779e-17 0.9664444 0.256876 719.3976 0 0 0 1</matrix>
+                    <matrix>0.5602956 0.301001 -0.7716653 -2160.586 -0.8282927 0.203611 -0.5219902 -678.6909 5.551115e-17 0.9316335 0.3633992 584.8778 0 0 0 1</matrix>
                     <instance_camera url="#ID1" />
                 </node>
                 <node id="ID3" name="instance_0">
-                    <matrix>1 0 0 -1005.906 0 1 0 -39.37008 0 0 1 -69.3827 0 0 0 1</matrix>
+                    <matrix>1 0 0 -1021.46 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
                     <instance_node url="#ID4" />
                 </node>
             </node>
         </visual_scene>
     </library_visual_scenes>
     <library_nodes>
-        <node id="ID4" name="Cylinder_hypersonic.stl_3">
+        <node id="ID4" name="Cylinder_hypersonic.stl_2">
             <instance_geometry url="#ID5">
                 <bind_material>
                     <technique_common>
@@ -85,7 +85,7 @@
         </geometry>
     </library_geometries>
     <library_materials>
-        <material id="ID6" name="Color_K01">
+        <material id="ID6" name="__Color_K01_1">
             <instance_effect url="#ID7" />
         </material>
     </library_materials>
@@ -95,10 +95,10 @@
                 <technique sid="COMMON">
                     <lambert>
                         <diffuse>
-                            <color>1 0.8 1 0.2019608</color>
+                            <color>1 0.8 1 0.4</color>
                         </diffuse>
                         <transparent opaque="RGB_ZERO">
-                            <color>0.2980392 0.2980392 0.2980392 0.2980392</color>
+                            <color>0.6 0.6 0.6 0.6</color>
                         </transparent>
                         <transparency>
                             <float>1</float>
